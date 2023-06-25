@@ -9,9 +9,9 @@ body {
   color: white;
 }
 
-.wrapper {
+/* .wrapper {
   height: 100vh;
-}
+} */
 
 header {
   text-align: right;
@@ -28,7 +28,8 @@ header > button {
 }
 
 .cams-container {
-  height: calc(100vh - 60px - 100px);
+  min-height: calc(100vh - 60px - 100px);
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -54,4 +55,36 @@ header > button {
 
 footer {
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.share {
+  color: green;
+}
+
+.end {
+  color: red;
+  background-color: #4a4a4a;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
 }
